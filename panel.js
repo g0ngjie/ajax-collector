@@ -34,7 +34,8 @@ var btn = document.getElementById("btn", "jpg");
 
 // 第一种 通过点击事件
 btn.onclick = function () {
-  download("http://api.g0ngjie.com/assets/avatar.jpg", 'avatar.jpg');
+  // download("http://api.g0ngjie.com/assets/avatar.jpg", 'avatar.jpg');
+  downloadFunc("http://api.g0ngjie.com/assets/avatar.jpg", "avatar.jpg");
 };
 
 function download(url, type, method = "get") {
@@ -76,7 +77,7 @@ function downloadFunc(url, filename) {
     {
       url: url,
       filename: filename,
-      conflictAction: _ex_save_conflict,
+      conflictAction: "uniquify",
       saveAs: false,
     },
     function (res) {}
