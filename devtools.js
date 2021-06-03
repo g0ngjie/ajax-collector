@@ -5,5 +5,5 @@ chrome.devtools.panels.create(
   // iconPath
   null,
   // pagePath
-  "panel.html"
+  "page/index.html"
 );
