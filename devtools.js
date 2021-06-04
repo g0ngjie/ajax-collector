@@ -6,4 +6,5 @@ chrome.devtools.panels.create(
   null,
   // pagePath
   "page/index.html"
+  // "panel.html"
 );
