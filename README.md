@@ -1,3 +1,3 @@
 # ajax-collector
 
-Ajax 数据收集工具
+Ajax 数据采集工具
