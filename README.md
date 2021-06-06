@@ -1,2 +1,3 @@
 # ajax-collector
-接口收集工具
+
+Ajax 数据收集工具
