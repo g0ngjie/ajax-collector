@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Ajax Collector",
   "version": "1.0.0",
-  "description": "Ajax数据收集工具",
+  "description": "Ajax数据采集工具",
   "author": "Gj",
   "icons": {
     "128": "images/128.png"
