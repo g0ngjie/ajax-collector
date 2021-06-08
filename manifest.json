@@ -8,6 +8,7 @@
     "128": "images/128.png"
   },
   "permissions": [
+    "storage",
     "http://*/",
     "https://*/"
   ],
