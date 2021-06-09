@@ -3,8 +3,7 @@
 用于项目开发阶段，收集浏览器 Ajax 响应数据 <br />
 For the project development phase, collect browser Ajax response data
 
-> **注:** 同一条 URL，多次请求默认只记录第一次 <br />
-> **Note:** for the same URL, multiple requests are only recorded for the first time by default
+> **注:** 同一条 URL，多次请求默认只记录第一次 <br /> **Note:** for the same URL, multiple requests are only recorded for the first time by default
 
 ### 功能
 
