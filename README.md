@@ -5,6 +5,12 @@ For the project development phase, collect browser Ajax response data
 
 > **注:** 同一条 URL，多次请求默认只记录第一次 <br /> **Note:** for the same URL, multiple requests are only recorded for the first time by default
 
+### 地址
+
+> 国内需要翻墙
+
+- [Ajax Collector](https://chrome.google.com/webstore/detail/ajax-collector/ekiijiffkfkijlaihbcnkjmeggeggkbc)
+
 ### 功能
 
 - [x] Ajax 请求数据采集
