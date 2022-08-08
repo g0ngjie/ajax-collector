@@ -1,18 +1,19 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "Ajax Collector",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Ajax数据采集工具",
   "author": "Gj",
   "icons": {
     "128": "images/128.png"
   },
   "permissions": [
-    "storage",
-    "http://*/",
-    "https://*/"
+    "storage"
   ],
-  "browser_action": {
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "action": {
     "default_icon": "images/48.png"
   },
   "devtools_page": "devtools.html"
